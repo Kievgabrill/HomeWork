@@ -4,14 +4,6 @@
     margin-top: 10px;
     margin-left: 80px;
   }
-  #header{
-      width: 663px;
-      height: 60px;
-      left: 747px;
-      top: 35px;
-      text-align: justify;
-    }
-
   h1{
       font-family: PlayFair Display;
       font-weight: bold;
@@ -23,9 +15,15 @@
       top: 3.58%;
       bottom: 93.56%;
   }
-  ul {
-    list-style: none;
+  .topnav a {
+    float: right;
+    display: block;
+    color: #B8BECD;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
   }
-  a {
-    text-decoration: none; 
+  .topnav a.active {
+    color: #202336;
   }
