@@ -1,33 +1,109 @@
-.header{
-    width: 1415px;
-    height: 786px;
-    display: flex;
-  }
-  h1{
-      font-family: PlayFair Display;
-      font-weight: bold;
-      font-size: 64px;
-      color:#202336;
-      position: absolute;
-      left: 11.81%; 
-      right: 65.94%;
-      top: 3.58%;
-      bottom: 93.56%;
-  }
-  .topnav a {
-    float: left;
-    display: flex;
-    color: #B8BECD;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
-    position: right;
-  }
-  .topnav a.active {
-    color: #202336;
-  }
-  .logo{
-    filter: drop-shadow(2px 6px 2px #B8BECD);
-    position: left;
-  }
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.header {
+  padding: 15px 0;
+}
+
+.header__logo {
+  float: left;
+}
+
+.header__navigation {
+  float: right;
+}
+.header__menu {
+  margin: 0 -16px;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+.header__item {
+  display: inline-block;
+  margin: 0 18px;
+}
+.header__item a {
+  font-size: 16px;
+  color: #B8BECD;
+  text-decoration: none;
+  transition: .3s color;
+}
+.header__item a:hover {
+  color: #202336;
+}
+.header__item.black a {
+  color:black;
+}
+.header__buttons {
+  display: inline-block;
+}
+.btn {
+  margin: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  font-size: 15px;
+  border-radius: 8px;
+  transition: .3s color;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  background-color: #FB8F1D;
+}
+.btn:hover {
+  color: #FB8F1D;
+  background-color: white;
+  border-color:white;
+}
+.btn.login {
+  cursor: pointer;
+  color: #FB8F1D;
+  border-color: #FB8F1D;
+  padding: 8px 46px;
+  border-radius: 8px;
+  background-color: transparent;
+  box-shadow: 0px 4px 4px 0px #000000 40%;
+}
+.btn.login:hover {
+  color: white;
+  background-color: #FB8F1D;
+  border-color: #FB8F1D;
+}
+
+  .btn.register {
+  padding: 8px 46px;
+  border-radius: 8px;
+  border-color: #FB8F1D;
+}
+h1 {
+  width: 356px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+  color: #202336;
+  mix-blend-mode: normal;
+}
+
+.element3 {
+  float: center;
+  display: inline-block;
+}
+.thousand-01 {
+  float: right;
+  display: inline-block;
+}
+.title {
+  display: inline-block;
+}
